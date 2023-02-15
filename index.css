@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f2f5;
+}
+img{
+    width: 280px;
+
+}
+#image{
+    margin-left: 120px;
+    margin-top: 0px;
+}
+.left{
+   
+    height: 500px;
+    width: 700px;
+    
+    
+}
+.parent{
+    display: flex;
+    
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    background-color: white;
+    height: 400px;
+    width: 350px;
+  
+}
+.rparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: red;
+    height: 100vh;
+    width: 50%;
+}
