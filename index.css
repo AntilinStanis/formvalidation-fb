@@ -9,11 +9,12 @@ body{
 }
 img{
     width: 280px;
+    padding-bottom: 0%;
 
 }
-#image{
+.image{
     margin-left: 120px;
-    margin-top: 0px;
+    margin-top: 150px;
 }
 .left{
    
@@ -32,16 +33,123 @@ img{
     align-items: center;
     margin-left: 30px;
     background-color: white;
-    height: 400px;
-    width: 350px;
+    height: 350px;
+    width: 400px;
+    border-radius: 24px;
+    
+    box-shadow:  25px 25px 56px #c3c3c3,
+             -25px -25px 56px #fdfdfd;
   
 }
 .rparent{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    background-color: red;
+     
+    background-color: #f0f2f5;
+    
     height: 100vh;
     width: 50%;
 }
+.text{
+    font-size: medium;
+    border: none;
+    border: 1px solid rgba(121, 121, 121, 0.442);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-inline: 30px;
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+}
+.button{
+    padding-inline: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background-color:   #166fe5;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button1{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    /* padding: 15px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.button1:hover{
+    background-color: #36a420;
+}
+.text1{
+    margin-bottom: 10px;
+}
+.text2{
+    margin-bottom: 10px;
+}
+.text:active{
+
+   outline: none;
+}
+.text:focus {
+    outline:1px solid #1877f2;
+  }
+  .h3{
+    margin-top: 10px;
+    margin-left: 145px;
+    height: 100px;
+    width: 500px;
+    padding-top: 10px;
+  }
+  h3{
+
+    margin-top :0px; ;
+   font-weight: bold;
+   font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+  }
+  a{
+    
+    text-decoration: none;
+    color: #1877f2;
+    font-size: large;
+    margin-left: 80px;
+    margin-bottom: 50px;
+  }
+  a:hover{
+    text-decoration: underline;
+    color: #1877f2;
+  }
+  .a{
+    width: 300px;
+    padding-top: 10px;
+  }
+  hr{
+    border-color: 1px solid #ef0101;
+    border:none
+  
+  }
+  form{
+    padding: 20px;
+  }
+  ::placeholder{
+    color: #90949c;
+    font-size:medium;
+  }
+  .p{
+    margin-top: 50px;
+  }
+  /* p{
+    font-family: 'Roboto', sans-serif;;
+  } */
