@@ -17,7 +17,8 @@ img{
     margin-top: 150px;
 }
 .left{
-   
+  position: relative;
+  animation: mymove 3s 1;
     height: 500px;
     width: 700px;
     
@@ -28,11 +29,11 @@ img{
     
 }
 .right{
+  
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 30px;
-    /* margin-right: 30%; */
     background-color: white;
     height: 350px;
     width: 400px;
@@ -54,6 +55,7 @@ img{
     width: 50%;
 }
 .text{
+
     font-size: medium;
     border: none;
     border: 1px solid rgba(121, 121, 121, 0.442);
@@ -151,6 +153,11 @@ img{
   .p{
     margin-top: 50px;
   }
+  
+@keyframes mymove {
+  from {top: -150px;}
+  to {top: 0px;}
+}
   
   @media only screen and (max-width: 600px) {
     .parent{
